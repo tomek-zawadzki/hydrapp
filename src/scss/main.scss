@@ -20,7 +20,6 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   background: #3767ad;
   color: #fff;
@@ -40,31 +39,27 @@ body {
 
 .glass {
   height: 280px;
-  width: 220px;
-  background-image: url(../assets/img/glass.svg);
+  width: 212px;
+  background-image: url(../assets/img/glass_svg.svg);
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-
-}
-
-.water {
-  background-image: url(../assets/img/water.svg);
-  background-repeat: no-repeat;
-  width: 161px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  margin: 17.5px;
- 
-}
-
-.amount {
-  color: #000;
-  font-size: 112px;
-  margin-bottom: 50px;
+  &__water {
+    background-image: url(../assets/img/water.svg);
+    background-repeat: no-repeat;
+    width: 161px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 17.5px;
+    &--amount {
+      color: #000;
+      font-size: 112px;
+      margin-bottom: 20px;
+    }
+  }
 }
 
 .add {
